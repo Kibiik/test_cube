@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - Default Point Spot Style -->
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/hotspot_information_user_defaultpoint0.png"
+         visible="false"
+         rotate="180"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+
+         />
+
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+
+
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+      
+  <!-- Picture Spot Style - Default Picture Spot Style -->
+
+  <style name="RectPictureDefaultPictureSpotStyle"
+         distorted="true"
+         visible="false"
+         scale="1.0" 
+         onhover="onhoverRectPictureDefaultPictureSpotStyle"
+         onout="onoutRectPictureDefaultPictureSpotStyle"
+         />
+  <action name="onhoverRectPictureDefaultPictureSpotStyle">
+    showTooltip('hotspot');
+  </action>
+  <action name="onoutRectPictureDefaultPictureSpotStyle">
+    hideTooltip();
+    
+  </action>
+
+
+
+      
+  <!-- Picture Spot Style - Default Picture Spot Style 1 -->
+
+  <style name="RectPictureDefaultPictureSpotStyle1"
+         distorted="true"
+         visible="false"
+         scale="1.0" 
+         onhover="onhoverRectPictureDefaultPictureSpotStyle1"
+         onout="onoutRectPictureDefaultPictureSpotStyle1"
+         />
+  <action name="onhoverRectPictureDefaultPictureSpotStyle1">
+    showTooltip('hotspot');
+  </action>
+  <action name="onoutRectPictureDefaultPictureSpotStyle1">
+    hideTooltip();
+    
+  </action>
+
+
+
+</krpano>
